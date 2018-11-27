@@ -17,3 +17,14 @@ public class Runner {
         System.out.println("Total size=" + doc.getSize() + " Kb");
     }
 }
+/*
+Directory Dco  [
+      File{ror.exe  size=54 Kb}, 
+      File{muzon.mp3  size=3576 Kb}, 
+Directory Nun  [], 
+      File{video.avi  size=35890 Kb}, 
+      File{XO.lnk size=1 Kb}]
+Total size=39521 Kb
+
+Process finished with exit code 0
+*/
