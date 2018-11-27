@@ -13,10 +13,10 @@ public class Directory extends NamedFSItems {
     public Directory add(FSItem fsItem) {
 //        try {
         fsItems.add(fsItem);
+        return this;
 /*        } catch(IllegalArgumentException e){
             System.out.println("This bad");
         }*/
-        return this;
     }
 
     public int getSize() {
